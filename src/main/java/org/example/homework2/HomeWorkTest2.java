@@ -1,7 +1,6 @@
 package org.example.homework2;
 
-import java.util.Arrays;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class HomeWorkTest2 {
@@ -18,6 +17,11 @@ public class HomeWorkTest2 {
                 "apple", "orange", "kiwi", "apple", "mango"
         };
 
+        System.out.println("Список уникальных слов");
+        Set<String> uniqueWords = new HashSet<>(List.of(words));
+        System.out.println(uniqueWords);
+
+        System.out.println("Список слов и их повторений");
         Map<String, Long> wordsAndCount = Arrays.stream(words)
                 .collect(Collectors.groupingBy(word -> word, Collectors.counting()));
         wordsAndCount.forEach((word, count) ->
