@@ -18,7 +18,8 @@ public class HomeWorkTest2 {
                 "apple", "orange", "kiwi", "apple", "mango"
         };
 
-        Map<String, Long> wordsAndCount = Arrays.stream(words).collect(Collectors.groupingBy(word -> word, Collectors.counting()));
+        Map<String, Long> wordsAndCount = Arrays.stream(words)
+                .collect(Collectors.groupingBy(word -> word, Collectors.counting()));
         wordsAndCount.forEach((word, count) ->
                 System.out.println(word + " : " + count));
 

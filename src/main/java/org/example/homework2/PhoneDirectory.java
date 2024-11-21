@@ -13,7 +13,7 @@ import java.util.Map;
   тогда при запросе такой фамилии должны выводиться все телефоны.
  */
 public class PhoneDirectory {
-    private Map<String, List<String>> directory;
+    private final Map<String, List<String>> directory;
 
     public PhoneDirectory(Map<String, List<String>> directory) {
         this.directory = directory;
@@ -25,7 +25,7 @@ public class PhoneDirectory {
     }
 
     public List<String> get(String lastName){
-        return this.directory.get(lastName);
+        return this.directory.getOrDefault(lastName, new ArrayList<>());
     }
 
     public void add(String lastName, String phoneNumber){
