@@ -21,7 +21,7 @@ public abstract class Parent {
     }
 
     // 5. Конструктор без параметров, выводящий на экран "Parent::constructor"
-    Parent(){
+    public Parent(){
         System.out.println("Parent::constructor");
     }
     // 6. Нестатический блок, выводящий на экран "Parent:instance 2"
@@ -30,7 +30,8 @@ public abstract class Parent {
     }
 
     // 7. Конструктор с параметром Name, выводящий на экран "Parent:name-constructor"
-    Parent(String name){
+    public Parent(String name){
+        this.name = name;
         System.out.println("Parent:name-constructor");
     }
 }
