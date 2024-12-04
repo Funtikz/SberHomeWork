@@ -1,4 +1,4 @@
-package org.example.homework3.task_2;
+package org.example.homework_3.task_2;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;

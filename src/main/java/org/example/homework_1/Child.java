@@ -1,4 +1,4 @@
-package org.example.homework1;
+package org.example.homework_1;
 
 public class Child extends Parent{
     // 1. Статический блок, выводящий на экран "Child:static 1"

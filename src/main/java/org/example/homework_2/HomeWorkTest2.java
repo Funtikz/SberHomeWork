@@ -1,4 +1,4 @@
-package org.example.homework2;
+package org.example.homework_2;
 
 import java.util.*;
 import java.util.stream.Collectors;

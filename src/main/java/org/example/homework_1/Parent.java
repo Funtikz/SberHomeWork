@@ -1,4 +1,4 @@
-package org.example.homework1;
+package org.example.homework_1;
 
 public abstract class Parent {
 
