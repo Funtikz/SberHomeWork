@@ -1,6 +1,7 @@
-package org.example.homework_4;
+package org.example.homework_4.task_1;
 
-import org.example.homework_4.exceptions.*;
+
+import org.example.homework_4.task_1.exceptions.*;
 
 import java.util.List;
 import java.util.Scanner;

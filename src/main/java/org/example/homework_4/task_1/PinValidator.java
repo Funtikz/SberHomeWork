@@ -1,8 +1,9 @@
-package org.example.homework_4;
+package org.example.homework_4.task_1;
 
-import org.example.homework_4.exceptions.AccountIsLockedException;
-import org.example.homework_4.exceptions.ClientNotFound;
-import org.example.homework_4.exceptions.InvalidInputException;
+
+import org.example.homework_4.task_1.exceptions.AccountIsLockedException;
+import org.example.homework_4.task_1.exceptions.ClientNotFound;
+import org.example.homework_4.task_1.exceptions.InvalidInputException;
 
 import java.util.List;
 

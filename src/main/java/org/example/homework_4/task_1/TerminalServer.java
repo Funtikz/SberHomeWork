@@ -1,7 +1,8 @@
-package org.example.homework_4;
+package org.example.homework_4.task_1;
 
-import org.example.homework_4.exceptions.InsufficientFundsException;
-import org.example.homework_4.exceptions.InvalidAmountException;
+
+import org.example.homework_4.task_1.exceptions.InsufficientFundsException;
+import org.example.homework_4.task_1.exceptions.InvalidAmountException;
 
 public class TerminalServer {
     private Client client;

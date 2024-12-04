@@ -1,4 +1,4 @@
-package org.example.homework_4;
+package org.example.homework_4.task_1;
 
 import java.util.List;
 

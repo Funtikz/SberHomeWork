@@ -1,4 +1,4 @@
-package org.example.homework_4.exceptions;
+package org.example.homework_4.task_1.exceptions;
 
 public class ClientNotFound extends Exception{
     public ClientNotFound(){
